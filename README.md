@@ -1,6 +1,12 @@
 # cpiWeather
 The simple Weather App for ClockWorkPI GameSH
 
+![screenshot01](screenshot01.png)
+
+![screenshot02](screenshot02.png)
+
+![screenshot03](screenshot03.png)
+
 # Running
 Fist of all , you need the API key for to access openweathermap.
 
