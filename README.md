@@ -16,9 +16,11 @@ Follow these steps :
 
 2- On your GameSH copy allsign.png to ~/launcher/skin/default/sys.py/gameshell/icons
 
-3- On your GameSH copy 94_weather to ~/launcher/Menu/GameShell/
+3- On your GameSH copy weather.png to ~/launcher/skin/default/Menu/GameShell
 
-4- Reboot or Reload your GameSH
+4- On your GameSH copy 94_weather to ~/launcher/Menu/GameShell/
+
+5- Reboot or Reload your GameSH
 
 # Built with
 ![openweathermap API](https://openweathermap.org/current) Add your API to config.json
