@@ -14,13 +14,15 @@ Follow these steps :
 
 1- Replace your API key on the cofig.json file. ( in the 94_weather folder )
 
-2- On your GameSH copy allsign.png to ~/launcher/skin/default/sys.py/gameshell/icons
+2- Replace your location on the cofig.json file. ( in the 94_weather folder )
 
-3- On your GameSH copy weather.png to ~/launcher/skin/default/Menu/GameShell
+3- On your GameSH copy allsign.png to ~/launcher/skin/default/sys.py/gameshell/icons
 
-4- On your GameSH copy 94_weather to ~/launcher/Menu/GameShell/
+4- On your GameSH copy weather.png to ~/launcher/skin/default/Menu/GameShell
 
-5- Reboot or Reload your GameSH
+5- On your GameSH copy 94_weather to ~/launcher/Menu/GameShell/
+
+6- Reboot or Reload your GameSH
 
 # Built with
 ![openweathermap API](https://openweathermap.org/current) Add your API to config.json
