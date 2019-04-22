@@ -25,6 +25,6 @@ Follow these steps :
 6- Reboot or Reload your GameSH
 
 # Built with
-![openweathermap API](https://openweathermap.org/current) Add your API to config.json
+[openweathermap API](https://openweathermap.org/current) Add your API to config.json
 
-![The weather icons](http://www.mpetroff.net) These icons were created by Matthew Petroff 
+[The weather icons](http://www.mpetroff.net) These icons were created by Matthew Petroff 
