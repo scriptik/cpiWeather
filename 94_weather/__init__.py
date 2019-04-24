@@ -24,6 +24,7 @@ from UI.multi_icon_item import MultiIconItem
 from UI.lang_manager import MyLangManager
 
 from UI.multilabel import MultiLabel
+from libs.DBUS       import is_wifi_connected_now
 
 class WeatherPage(Page):
     _FootMsg =  ["Nav","","","Back","Update"]
@@ -93,9 +94,19 @@ class WeatherPage(Page):
             self._Screen.Draw()
             self._Screen.SwapAndShow()
 
-        if IsKeyStartOrA(event.key):
-            self.CurWeather()
+        #if IsKeyStartOrA(event.key):
+        #    self.CurWeather()
         
+        if IsKeyStartOrA(event.key):
+           if is_wifi_connected_now():
+              self.CurWeather()
+           else:
+               self._Screen.Draw()
+               self._Screen._MsgBox.SetText("CheckWifiConnection")
+               self._Screen._MsgBox.Draw()
+               self._Screen.SwapAndShow()
+
+
     def Init(self):
         self._curTemp = "---" 
         
