@@ -23,7 +23,7 @@ Follow these steps :
 5. Reboot GameSH or run `Reload UI` in `Launcher`
 
 ### Note 
-* tested and worked with "Launcher" 1.24. 
+* tested and worked with "Launcher" 1.25. 
 * this app is not supported by [LauncherGo](https://github.com/clockworkpi/launchergo)
 
 # Built with
