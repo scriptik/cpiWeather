@@ -12,9 +12,9 @@ Fist of all, you need the API key for to access openweathermap.
 
 Follow these steps :
 
-1. Replace your API key on the `cofig.json` file. ( in the `94_weather` folder )
+1. Replace your API key on the `config.json` file. ( in the `94_weather` folder )
 
-2. Replace your location on the `cofig.json` file. ( in the `94_weather` folder )
+2. Replace your location on the `config.json` file. ( in the `94_weather` folder )
 
 3. On your GameSH copy `allsign.png` to `~/launcher/skin/default/sys.py/gameshell/icons`
 
